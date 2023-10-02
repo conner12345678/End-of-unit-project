@@ -1,0 +1,23 @@
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.service {
+    text-align: center;
+}
+
+.service li {
+    float: none;
+    list-style-type: none;
+}

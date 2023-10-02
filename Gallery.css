@@ -1,0 +1,26 @@
+.image-gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.gallery-item {
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    max-width: 479px;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
