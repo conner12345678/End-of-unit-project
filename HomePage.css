@@ -4,7 +4,7 @@ ul a:hover {
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     overflow: hidden;
     background-color: #333;
 }
@@ -58,4 +58,23 @@ body {
 
 .AboutUs h1 {
     text-decoration: underline;
+}
+@font-face {
+    font-family: roboto;
+    src: url(./roboto/RobotoCondensed-Regular.ttf);
+}
+h1{
+    font-family: roboto;
+}
+h2{
+    font-family: roboto;
+}
+p{
+    font-family: roboto;
+}
+li{
+    font-family: roboto;
+}
+h3{
+    font-family: roboto;
 }
